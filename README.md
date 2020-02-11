@@ -23,6 +23,7 @@ leetcode是提升算法实力的一个快速通道。尽管多年从事算法工
 
 https://www.educative.io/courses/grokking-the-coding-interview?aff=K7qB
 
+稍后在刷到相关题目时会上传到对应的类别文件夹下。并总结规律。
 
 
 ## 刷题的内容
