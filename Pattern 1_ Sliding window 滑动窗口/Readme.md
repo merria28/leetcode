@@ -20,49 +20,49 @@
 	
 
 ## 伪代码示例
+```bash
+string s, t;
 
-	string s, t;
+int left = 0, right = 0;
 
-	int left = 0, right = 0;
+string res = s;
+
+while(right < s.size()) {
+
+	window.add(s[right]);
 	
-	string res = s;
-
-	while(right < s.size()) {
+	right++;
 	
-		window.add(s[right]);
+	// 如果符合要求，移动 left 缩小窗口
+	
+	while (window 符合要求) {
+	
+		// 如果这个窗口的子串更短，则更新 res
 		
-		right++;
+		res = minLen(res, window);
 		
-		// 如果符合要求，移动 left 缩小窗口
+		window.remove(s[left]);
 		
-		while (window 符合要求) {
-		
-			// 如果这个窗口的子串更短，则更新 res
-			
-			res = minLen(res, window);
-			
-			window.remove(s[left]);
-			
-			left++;
-		}
+		left++;
 	}
-	return res;
+}
+return res;
+```
 
 
+## leetcode题目链接
 
-## leetcode题目
+-  209. [长度最小的子数组][https://leetcode-cn.com/problems/minimum-size-subarray-sum/description/]
 
--  **209. 长度最小的子数组[https://leetcode-cn.com/problems/minimum-size-subarray-sum/description/]
+-  76. [最小覆盖字串][https://leetcode-cn.com/problems/minimum-window-substring/]
 
--  **76. 最小覆盖字串[https://leetcode-cn.com/problems/minimum-window-substring/]
+-  438. [找到字符串中所有字母异位词][https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/description/]
 
--  **438. 找到字符串中所有字母异位词[https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/description/]
+-  3. [无重复字符的最长子串][https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/]
 
--  **3. 无重复字符的最长子串[https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/]
+-  239. [滑动窗口最大值][https://leetcode-cn.com/problems/sliding-window-maximum/]
 
--  **239. 滑动窗口最大值[https://leetcode-cn.com/problems/sliding-window-maximum/]
-
--  **424. 替换后的最长重复字符[https://leetcode-cn.com/problems/longest-repeating-character-replacement/]
+-  424. [替换后的最长重复字符][https://leetcode-cn.com/problems/longest-repeating-character-replacement/]
 
 
 
