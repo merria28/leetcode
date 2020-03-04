@@ -14,7 +14,7 @@
 	或者选择创建一个数组桶监视数量
 	
 	
-3. 双项队列
+3. 注意缩小窗口的条件，每个题目不同
 
 
 	
@@ -61,6 +61,10 @@
 3. 无重复字符的最长子串[https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/]
 
 239. 滑动窗口最大值[https://leetcode-cn.com/problems/sliding-window-maximum/]
+
+424. 替换后的最长重复字符[https://leetcode-cn.com/problems/longest-repeating-character-replacement/]
+
+
 
 
 
