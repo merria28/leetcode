@@ -64,9 +64,13 @@ return res;
 
 -  [424. 替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
 
+-  [480. 滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/) 第480和295题的操作方式溜溜的
 
+-  [295. 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/) 对于第480题不理解的可以看295题，有详细的解释，这一题对于新涉及到的数据类型更基础一些
 
+-  [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
 
+-  [978. 最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/)
 
 
 
