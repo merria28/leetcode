@@ -21,7 +21,7 @@ leetcode是提升算法实力的一个快速通道。尽管多年从事算法工
 
 具体分类参考Grokking the Coding Interview: Patterns for Coding Questions
 
-https://www.educative.io/courses/grokking-the-coding-interview?aff=K7qB
+https://www.designgurus.io/course/grokking-the-coding-interview
 
 稍后在刷到相关题目时会上传到对应的类别文件夹下。并总结规律。
 <<<<<<< HEAD
